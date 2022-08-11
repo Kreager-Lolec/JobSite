@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArv95EXMxHkyXhDWkwQQUAgAAAAACAAAAAAAQZgAAAAEAACAAAACQUMYxRTqn0J3YGV9fIxyvicNfJRIaSJSVl0vhjXWTpQAAAAAOgAAAAAIAACAAAADjcLTN1gem6tjD6gMVSAdtjOOde+BG62HrMonADC8WoCAAAADYu1LefL7srVLnvfcoxEAw+J3tKde6DHgZRfXjxpG82kAAAABmmXweoCk6k5186AFLvUVI1QwQuru1GoJE/zLbrhQIZsXYhqyS457Sam/n4uNGaA80RSWL2YH5mZxq0887idkA</EncryptedPassword>
+    <History>True|2022-03-26T17:00:55.6064193Z;True|2022-03-26T18:38:31.3190947+02:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=SQL5107.site4now.net%3bInitial Catalog=db_a845fc_jovsitedb%3bUser Id=db_a845fc_jovsitedb_admin%3bIntegrated security=false%3bPassword=Frostlandnano34%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="JobSite.Data.ApplicationDbContext">
+      <Value>Data Source=SQL5107.site4now.net%3bInitial Catalog=db_a845fc_jovsitedb%3bUser Id=db_a845fc_jovsitedb_admin%3bIntegrated security=false%3bPassword=Frostlandnano34%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

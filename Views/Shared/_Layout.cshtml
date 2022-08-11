@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/navbar.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/homepage.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/styleerror.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/dropdownstyles.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/animationtext.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/_Layout.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">
+            <nav class="topnav mr-auto navbar-expand-lg">
+                @*<a class="navbar-brand" href="#">Navbar</a>*@
+                <form class="form-margin">
+                    <button class="navbar-toggler navtoggler" type="button" data-toggle="collapse" data-target="#navBar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </form>
+
+                <div class="collapse navbar-collapse ml-auto" id="navBar">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="active" asp-controller="Home" asp-action="Index">Головна</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="BuildingMaterials" asp-action="List">Товари</a>
+                        </li>
+                        <li>
+                            <a asp-controller="ShopCart" asp-action="Index">Корзина</a>
+                        </li>
+                        <li>
+                            <a href="/Home/Index#ContactPanel">Контакти</a>
+                        </li>
+                        <li>
+                            <a href="/AboutUs/AboutUs">Про нас</a>
+                        </li>
+                    </ul>
+                    <div class="form-inline form-design ms-auto my-2 my-lg-0">
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <img id="img-dropdown" src=~/img/AccountIcon/Icon.png />
+                            </button>
+                            <div class="dropdown-content">
+                                @{
+                                    if (User.Identity.IsAuthenticated)
+                                    {
+                                        <form asp-controller="Account" asp-action="ChangePassword" method="post">
+                                            <button class="form-control btn-form btn-sm align-middle" style="text-align: center" type="submit">Змінити пароль</button>
+                                        </form>
+                                        <form asp-controller="Account" asp-action="Logout" method="post">
+                                            <button class="form-control btn-form align-middle" type="submit">Вихід</button>
+                                        </form>
+                                    }
+                                    else
+                                    {
+                                        <form asp-controller="Account" asp-action="Login" method="post">
+                                            <button class="form-control btn-form btn-sm" type="submit">Вхід</button>
+                                        </form>
+                                    }
+                                }
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        @RenderBody()
+        <div class="footer">
+            © 2022. Всі права захищено
+        </div>
+    </div>
+    <div id="lastDiv"></div>
+    <script>
+
+        $(document).ready(function () {
+
+            $("#lastDiv").nextAll("center").remove();
+
+            setTimeout(function () {
+
+                $("#lastDiv").nextAll("div").remove();
+
+            }, 400);
+
+            setTimeout(function () {
+
+                $("#lastDiv").nextAll("div").remove();
+
+            }, 500);
+
+            setTimeout(function () {
+
+                $("#lastDiv").nextAll("div").remove();
+
+            }, 2000);
+
+        });
+    </script>
+    <script type="text/javascript" src="~/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="~/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/js/site.js"></script>
+    <script type="text/javascript" src="~/js/scroll.js"></script>
+    <script type="text/javascript" src="~/js/copytext.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDm4BoHIkVYRWld6DIAgg0EfZRSL3S7Iew&callback=initMap">
+    </script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+﻿ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.form-margin{
+    margin-left: 12px;
+}
+.form-design {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 4px 18px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.topnav {
+    background-color: #161616;
+    overflow: hidden;
+    padding: 0.5rem 1rem;
+}
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+        .topnav a:hover {
+            background-color: #17a2b8;
+            color: black;
+        }
+
+        .topnav a.active {
+            /*background-color: dodgerblue;*/
+            color: white;
+        }
+
+.navtoggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-color: #343434;
+    transition: box-shadow .15s ease-in-out;
+}
+
+    .navtoggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem;
+    }
+
+.topnav .navtoggler {
+    color: #343434;
+}
+
+.topnav .navbar-toggler-icon {
+    background-image: url('../img/Nav Toggler Icon/Icon.png');
+}
+
+.btn-outline-info {
+    color: #f2f2f2;
+    background-color: transparent;
+    background-image: none;
+    border-color: rgba(255,255,255,.1);
+}
+    .btn-outline-info:hover {
+        color: #fff;
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+    }
+
+.btn-form {
+    border: 1px none transparent;
+    /*width: 60px;*/
+    font-size: 12px;
+    cursor: pointer;
+    /*float: left;*/
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 0px 3px 0px;
+}
+
+#img-dropdown {
+    max-width: 30px;
+    max-height: 30px;
+    vertical-align: central;
+    border-radius:50%;
+}
+/* The dropdown container */
+.dropdown {
+    float: left;
+    position: unset;
+    overflow: hidden;
+    vertical-align: central;
+}
+
+    /* Dropdown button */
+    .dropdown .dropbtn {
+        font-size: 12px;
+        border: none;
+        outline: none;
+        color: white;
+        height: 42px;
+        align-content: center;
+        background-color: inherit;
+        border-radius: 50%;
+        margin-left: 10px;
+        align-self: center;
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 0; /* Important for vertical align on mobile phones */
+    }
+
+    /* Add a red background color to navbar links on hover */
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #17a2b8;
+    }
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #17a2b8;
+    /*min-width: 60px;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+    /*margin-left: -30px;*/
+    border-radius: 5%;
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        /* Add a grey background color to dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

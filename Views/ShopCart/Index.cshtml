@@ -1,0 +1,30 @@
+﻿@model ShopCartViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="report" charset="utf-8" />
+    <title>Вибрані вами будівельні матеріали</title>
+    <link href="~/css/stylelist.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="grid-container-content">
+        @*<h1 class="text-style-1 header color-header-list">Товари в корзині</h1>*@
+        @{
+            if (!Model.shopCartItems.Any())
+            {
+                <a class="text-style-2 color-header-list">Ви ще нічого не додали в корзину</a>
+            }
+            else
+            {
+                foreach (var item in Model.shopCartItems)
+                {
+                    @Html.Partial("AllShopCartCommodities", item.BuildingMaterial);
+                }
+            }
+        }
+    </div>
+</body>
+</html>

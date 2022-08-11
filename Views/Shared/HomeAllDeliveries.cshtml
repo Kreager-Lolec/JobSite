@@ -1,0 +1,59 @@
+﻿@model HomeViewModel
+@{
+    CultureInfo culture = new CultureInfo("uk-UA");
+}
+
+<div class="box-three priceAndDelivery-list-block grow">
+    <div class="header-price-list"><h4 style="margin-bottom: 10px">Доставка</h4></div>
+    <div class="box-two-name">
+        <h5 class="h5-price-list">Відстань</h5>
+    </div>
+    <div class="box-two-unit">
+        <h5 class="h5-price-list">Транспорт</h5>
+    </div>
+    <div class="box-two-price">
+        <h5 class="h5-price-list">Ціна</h5>
+    </div>
+    @{
+        for (var i = 0; i < Model.AllBuildingMaterials.Count(); i++)
+        {
+            if (i == Model.AllDeliveries.Count() - 1)
+            {
+                <div class="box-two-name-bottom">
+                    <a class="text-style-5"> @Model.AllDeliveries.ToList()[i].distance км</a>
+                </div>
+                <div class="box-two-unit-bottom">
+                    <a class="text-style-5">@Model.AllDeliveries.ToList()[i].Vehicle.name</a>
+                </div>
+                <div class="box-two-price-bottom">
+                    <a class="text-style-5">@Model.AllDeliveries.ToList()[i].price.ToString("C1", culture)</a>
+                </div>
+                break;
+            }
+            else if (@Model.AllDeliveries.ToList()[i].type == "По місту")
+            {
+                <div class="box-two-name-data">
+                    <a class="text-style-5"> @Model.AllDeliveries.ToList()[i].type</a>
+                </div>
+                <div class="box-two-unit-data">
+                    <a class="text-style-5">@Model.AllDeliveries.ToList()[i].Vehicle.name</a>
+                </div>
+                <div class="box-two-price-data">
+                    <a class="text-style-5">@Model.AllDeliveries.ToList()[i].price.ToString("C1", culture)</a>
+                </div>
+            }
+            else
+            {
+                <div class="box-two-name-data">
+                    <a class="text-style-5"> @Model.AllDeliveries.ToList()[i].distance км</a>
+                </div>
+                <div class="box-two-unit-data">
+                    <a class="text-style-5">@Model.AllDeliveries.ToList()[i].Vehicle.name</a>
+                </div>
+                <div class="box-two-price-data">
+                    <a class="text-style-5">@Model.AllDeliveries.ToList()[i].price.ToString("C1", culture)</a>
+                </div>
+            }
+        }
+    }
+</div>
