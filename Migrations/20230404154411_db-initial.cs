@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace JobSite.Migrations
 {
-    public partial class Initial : Migration
+    public partial class dbinitial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

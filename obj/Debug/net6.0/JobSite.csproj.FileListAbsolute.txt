@@ -1,4 +1,3 @@
-D:\C#projects\JobSite\obj\Debug\net6.0\JobSite.csproj.AssemblyReference.cache
 D:\C#projects\JobSite\obj\Debug\net6.0\JobSite.GeneratedMSBuildEditorConfig.editorconfig
 D:\C#projects\JobSite\obj\Debug\net6.0\JobSite.AssemblyInfoInputs.cache
 D:\C#projects\JobSite\obj\Debug\net6.0\JobSite.AssemblyInfo.cs
@@ -68,3 +67,4 @@ D:\C#projects\JobSite\obj\Debug\net6.0\JobSite.dll
 D:\C#projects\JobSite\obj\Debug\net6.0\ref\JobSite.dll
 D:\C#projects\JobSite\obj\Debug\net6.0\JobSite.pdb
 D:\C#projects\JobSite\obj\Debug\net6.0\JobSite.genruntimeconfig.cache
+D:\C#projects\JobSite\obj\Debug\net6.0\JobSite.csproj.AssemblyReference.cache
