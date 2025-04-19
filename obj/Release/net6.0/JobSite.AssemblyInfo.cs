@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JobSite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d49d897b6f4b5b624a59ee61c5e7fcbb26bcbb5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3673adf0d7f5d353d570e7a41559f30953183ae9")]
 [assembly: System.Reflection.AssemblyProductAttribute("JobSite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JobSite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

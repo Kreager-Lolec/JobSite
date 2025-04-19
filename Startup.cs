@@ -5,6 +5,8 @@ using JobSite.Data.Repository;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Storage;
 
 
 namespace JobSite
@@ -116,12 +118,22 @@ namespace JobSite
                 });
                 using (var scope = app.ApplicationServices.CreateScope())
                 {
-                    ApplicationDbContext content = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-                    DBObjects.Initial(content);
+                    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+                    // Перевіряємо, чи база пуста
+                    var databaseCreator = db.Database.GetService<IRelationalDatabaseCreator>();
+                    if (!databaseCreator.HasTables())
+                    {
+                        db.Database.Migrate();              // Створює таблиці згідно з усіма міграціями
+                        DBObjects.Initial(db);              // Ініціалізує тестовими даними (якщо потрібно)
+                    }
+
+                    // Ініціалізація ролей і користувачів
                     var userManager = scope.ServiceProvider.GetRequiredService<UserManager<User>>();
                     var rolesManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
                     await RoleInitializer.InitializeAsync(userManager, rolesManager);
                 }
+
             }
             catch (Exception)
             {
