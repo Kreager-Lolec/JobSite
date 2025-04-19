@@ -1,0 +1,24 @@
+﻿@model JobSite.ViewModels.ConfirmPersonViewModel
+@{
+    ViewBag.Title = "Зкидування пароля";
+}
+<link href="~/css/passwordpage.css" rel="stylesheet" type="text/css" />
+<div class="content grid-item-validation">
+    <form method="post" asp-controller="Account" asp-action="ConfirmPerson">
+        <h2 class="header-log">Зкидування пароля</h2>
+        <div asp-validation-summary="ModelOnly"></div>
+        <div>
+            <label asp-for="Email"></label><br />
+            <div>
+                <span asp-validation-for="Email"></span>
+            </div>
+            <input asp-for="Email" />
+        </div>
+        <div class="form-group">
+            <p>     </p>
+        </div>
+        <div>
+            <input type="submit" value="Надіслати лист" class="btn btn-outline-dark" />
+        </div>
+    </form>
+</div>

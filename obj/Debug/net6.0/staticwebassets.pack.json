@@ -1,0 +1,449 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\css\\_Layout.css",
+      "PackagePath": "staticwebassets\\css\\_Layout.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\css\\aboutus.css",
+      "PackagePath": "staticwebassets\\css\\aboutus.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\css\\animationtext.css",
+      "PackagePath": "staticwebassets\\css\\animationtext.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\css\\contactstyle.css",
+      "PackagePath": "staticwebassets\\css\\contactstyle.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\css\\dropdownstyles.css",
+      "PackagePath": "staticwebassets\\css\\dropdownstyles.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\css\\homepage.css",
+      "PackagePath": "staticwebassets\\css\\homepage.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\css\\navbar.css",
+      "PackagePath": "staticwebassets\\css\\navbar.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\css\\passwordpage.css",
+      "PackagePath": "staticwebassets\\css\\passwordpage.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\css\\styleerror.css",
+      "PackagePath": "staticwebassets\\css\\styleerror.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\css\\stylelist.css",
+      "PackagePath": "staticwebassets\\css\\stylelist.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\AccountIcon\\AccountIcon.jpg",
+      "PackagePath": "staticwebassets\\img\\AccountIcon\\AccountIcon.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\AccountIcon\\Icon.png",
+      "PackagePath": "staticwebassets\\img\\AccountIcon\\Icon.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\BackgroundContactPanel.jpg",
+      "PackagePath": "staticwebassets\\img\\BackgroundContactPanel.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Concrete\\Concrete100.jpg",
+      "PackagePath": "staticwebassets\\img\\Concrete\\Concrete100.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Concrete\\Concrete100resize.jpg",
+      "PackagePath": "staticwebassets\\img\\Concrete\\Concrete100resize.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Concrete\\Concrete150.jpg",
+      "PackagePath": "staticwebassets\\img\\Concrete\\Concrete150.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Concrete\\Concrete200.jpg",
+      "PackagePath": "staticwebassets\\img\\Concrete\\Concrete200.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Concrete\\Concrete250.jpg",
+      "PackagePath": "staticwebassets\\img\\Concrete\\Concrete250.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Concrete\\Concrete300.jpg",
+      "PackagePath": "staticwebassets\\img\\Concrete\\Concrete300.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Concrete\\Concrete350.jpg",
+      "PackagePath": "staticwebassets\\img\\Concrete\\Concrete350.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Concrete\\Concrete400.jpg",
+      "PackagePath": "staticwebassets\\img\\Concrete\\Concrete400.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Nav Toggler Icon\\Icon.png",
+      "PackagePath": "staticwebassets\\img\\Nav Toggler Icon\\Icon.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Cement\\Solute Cement Template.psd",
+      "PackagePath": "staticwebassets\\img\\Solute Cement\\Solute Cement Template.psd"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Cement\\SoluteCement Original.jpg",
+      "PackagePath": "staticwebassets\\img\\Solute Cement\\SoluteCement Original.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Cement\\SoluteCement100.png",
+      "PackagePath": "staticwebassets\\img\\Solute Cement\\SoluteCement100.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Cement\\SoluteCement150.png",
+      "PackagePath": "staticwebassets\\img\\Solute Cement\\SoluteCement150.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Cement\\SoluteCement25.png",
+      "PackagePath": "staticwebassets\\img\\Solute Cement\\SoluteCement25.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Cement\\SoluteCement50.png",
+      "PackagePath": "staticwebassets\\img\\Solute Cement\\SoluteCement50.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Cement\\SoluteCement75.png",
+      "PackagePath": "staticwebassets\\img\\Solute Cement\\SoluteCement75.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Lime\\SoluteLime4.png",
+      "PackagePath": "staticwebassets\\img\\Solute Lime\\SoluteLime4.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Lime\\SoluteLimeOriginal.jpg",
+      "PackagePath": "staticwebassets\\img\\Solute Lime\\SoluteLimeOriginal.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Lime\\SoluteLimeTemplate.psd",
+      "PackagePath": "staticwebassets\\img\\Solute Lime\\SoluteLimeTemplate.psd"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Mix\\Solute Mix.jpg",
+      "PackagePath": "staticwebassets\\img\\Solute Mix\\Solute Mix.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Mix\\SoluteMix100.png",
+      "PackagePath": "staticwebassets\\img\\Solute Mix\\SoluteMix100.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Mix\\SoluteMix25.png",
+      "PackagePath": "staticwebassets\\img\\Solute Mix\\SoluteMix25.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Mix\\SoluteMix50.png",
+      "PackagePath": "staticwebassets\\img\\Solute Mix\\SoluteMix50.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Mix\\SoluteMix75.png",
+      "PackagePath": "staticwebassets\\img\\Solute Mix\\SoluteMix75.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Solute Mix\\SoluteMixTemplate.psd",
+      "PackagePath": "staticwebassets\\img\\Solute Mix\\SoluteMixTemplate.psd"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Vehicles\\Mixer\\Mixer.jpg",
+      "PackagePath": "staticwebassets\\img\\Vehicles\\Mixer\\Mixer.jpg"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Vehicles\\Mixer\\Mixer.png",
+      "PackagePath": "staticwebassets\\img\\Vehicles\\Mixer\\Mixer.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\img\\Vehicles\\Mixer\\MixerResized.png",
+      "PackagePath": "staticwebassets\\img\\Vehicles\\Mixer\\MixerResized.png"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\js\\copytext.js",
+      "PackagePath": "staticwebassets\\js\\copytext.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\js\\scroll.js",
+      "PackagePath": "staticwebassets\\js\\scroll.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\C#projects\\JobSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.JobSite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.JobSite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.JobSite.props",
+      "PackagePath": "build\\JobSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.JobSite.props",
+      "PackagePath": "buildMultiTargeting\\JobSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.JobSite.props",
+      "PackagePath": "buildTransitive\\JobSite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

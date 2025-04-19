@@ -1,0 +1,135 @@
+﻿html{
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "header header header header"
+        "content content content content"
+        "content content content content"
+        "footer footer footer footer";
+    grid-template-columns: min-content;
+    grid-template-rows: min-content auto auto min-content;
+    height: 100%;
+    flex: content;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item-validation {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.header {
+    grid-area: header;
+    background-color: #bbb;
+}
+
+.header-log {
+    padding: 10px 50px;
+    font-size: larger;
+}
+
+.register-submit {
+    padding: 0px 10px;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: #ccc;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    max-width: min-content;
+}
+
+.content {
+    grid-area: content;
+    /*background-color: #eee;*/
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #161616;
+    color: #f2f2f2;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.div-sidebar-panel {
+    padding: 5px;
+}
+
+#panel {
+    z-index: 1;
+    position: fixed; /* положение */
+    left: 0; /* отступ слева */
+    background: #161616; /* цвет фона */
+    width: 15px; /* ширина блока */
+    height: 40px; /* высота блока */
+    font: 14px Arial; /* размер и тип шрифта */
+    color: #fff; /* цвет текста */
+    text-align: center; /* выравнивание текста по центру */
+    margin-top: 5px;
+    -webkit-transition-duration: 0.3s; /* анимационное выдвижение для всех браузеров*/
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-border-radius: 0px 10px 10px 0px; /* закругление границ для всех браузеров*/
+    -moz-border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* СКРЫТЫЙ БЛОК */
+#hidden_panel {
+    position: fixed; /* положение */
+    left: -220px; /* отступ слева */
+    background: #161616; /* цвет фона */
+    background-position-x: left;
+    background-position-y: left;
+    color: #000; /* цвет текста */
+    width: 220px; /* ширина блока */
+    height: 100%; /* высота блока */
+    padding: 10px; /* отступы от границ внутри блока */
+    text-align: center; /* выравнивание текста */
+
+    -webkit-transition-duration: 0.3s; /* анимационное выдвижение для всех браузеров*/
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-border-radius: 0 0px 5px 0; /* закругление границ для всех браузеров*/
+    -moz-border-radius: 0 0px 5px 0;
+    border-radius: 0 0px 5px 0;
+}
+
+#panel:hover {
+    left: 220px; /* при наведении выдвигается на скрытые 200px + 20px отступы */
+}
+
+    #panel:hover #hidden_panel {
+        left: 0; /* отступ слева */
+    }
+
+.span-align{
+    align-self:end;
+}

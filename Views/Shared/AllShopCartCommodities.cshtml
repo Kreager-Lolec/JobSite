@@ -1,0 +1,30 @@
+﻿@model BuildingMaterial
+@{
+    CultureInfo culture = new CultureInfo("uk-UA");
+}
+
+<div class="grid-item grow">
+    <h2 class="text-style-1">Матеріал: @Model.name</h2>
+    @if (Model.name == "Бетон")
+    {
+        <img class="image-style-2" src="@Model.img" alt="@Model.name" />
+    }
+    else
+    {
+        <img class="image-style-1" src="@Model.img" alt="@Model.name" />
+    }
+    <p class="text-style-3">Ціна: @Model.price.ToString("C1", culture)/@Model.unit</p>
+    <form asp-action="SetQuantity" asp-controller="ShopCart" asp-route-id="@Model.ShopCartItem.Id" method="post">
+        <div>
+            <span asp-validation-for="@Model.ShopCartItem.Quantity" />
+        </div>
+        <label asp-for="@Model.ShopCartItem.Quantity" class="text-style-3">Кількість: @Model.ShopCartItem.Quantity</label><br />
+        <input name="Quantity" type="number" min="0" />
+        <input type="submit" value="Зберегти">
+    </form>
+    <p class="text-style-3">Загальна сума: @Model.ShopCartItem.TotalCost(Model.ShopCartItem.Quantity, Model.price).ToString("C1", culture) </p>
+    <a class="btn text-style-4" asp-controller="ShopCart" asp-action="ReduceQuantity" asp-route-id="@Model.ShopCartItemId">-</a>
+    <a class="btn text-style-4" asp-controller="ShopCart" asp-action="RiseQuantity" asp-route-id="@Model.ShopCartItemId">+</a>
+    <a class="btn btn-danger text-style-4" asp-controller="ShopCart" asp-action="Order">Оплатити</a>
+    <a class="btn btn-danger text-style-4" asp-controller="ShopCart" asp-action="Remove" asp-route-id="@Model.Id">Видалити</a>
+</div>

@@ -1,0 +1,43 @@
+﻿@model HomeViewModel
+@{
+    CultureInfo culture = new CultureInfo("uk-UA");
+}
+<div class="box-three priceAndDelivery-list-block grow">
+    <div class="header-price-list"><h4 style="margin-bottom: 10px">Прайслист</h4></div>
+    <div class="box-two-name">
+        <h5 class="h5-price-list">Найменування</h5>
+    </div>
+    <div class="box-two-unit">
+        <h5 class="h5-price-list"> Од.виміру</h5>
+    </div>
+    <div class="box-two-price">
+        <h5 class="h5-price-list">Ціна</h5>
+    </div>
+    @{
+        for (var i = 0; i < Model.AllBuildingMaterials.Count(); i++)
+        {
+            if (i == Model.AllBuildingMaterials.Count() - 1)
+            {
+                <div class="box-two-name-bottom">
+                    <a class="text-style-5">@Model.AllBuildingMaterials.ToList()[i].name @Model.AllBuildingMaterials.ToList()[i].mark</a>
+                </div>
+                <div class="box-two-unit-bottom">
+                    <a class="text-style-5">@Model.AllBuildingMaterials.ToList()[i].unit</a>
+                </div>
+                <div class="box-two-price-bottom">
+                    <a class="text-style-5">@Model.AllBuildingMaterials.ToList()[i].price.ToString("C1", culture)</a>
+                </div>
+                break;
+            }
+            <div class="box-two-name-data">
+                <a class="text-style-5">@Model.AllBuildingMaterials.ToList()[i].name @Model.AllBuildingMaterials.ToList()[i].mark</a>
+            </div>
+            <div class="box-two-unit-data">
+                <a class="text-style-5">@Model.AllBuildingMaterials.ToList()[i].unit</a>
+            </div>
+            <div class="box-two-price-data">
+                <a class="text-style-5">@Model.AllBuildingMaterials.ToList()[i].price.ToString("C1", culture)</a>
+            </div>
+        }
+    }
+</div>

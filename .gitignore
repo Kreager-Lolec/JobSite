@@ -1,0 +1,5 @@
+*.log
+appsettings.json
+EmailService.cs
+RoleInitializer.cs
+Views/Shared/_Layout.cshtml

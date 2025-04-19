@@ -1,0 +1,18 @@
+﻿@model BuildingMaterial
+@{
+    CultureInfo culture = new CultureInfo("uk-UA");
+}
+
+<div class="grid-item grow">
+                    <h2 class="text-style-1">Матеріал: @Model.name</h2>
+                    @if (Model.name == "Бетон")
+                    {
+                        <img class="image-style-2" src="@Model.img" alt="@Model.name" />
+                    }
+                    else
+                    {
+                        <img class="image-style-1" src="@Model.img" alt="@Model.name" />
+                    }
+                    <p class="text-style-2">Ціна: @Model.price.ToString("C1", culture)/@Model.unit</p>
+                    <a class="btn btn-warning" asp-controller="ShopCart" asp-action="AddToCart" asp-route-id="@Model.Id">Додати в корзину</a>
+                </div>

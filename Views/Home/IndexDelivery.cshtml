@@ -1,0 +1,89 @@
+﻿@model HomeViewModel
+@{
+    CultureInfo culture = new CultureInfo("uk-UA");
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="report" charset="utf-8" />
+    <title>Вибрані вами будівельні матеріали</title>
+    <link href="~/css/stylelist.css" rel="stylesheet" type="text/css" />
+        <link href="~/css/animationtext.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="grid-container-home">
+        <div style="text-align: right; grid-column: 1/2; margin-top: 60px;">
+            <p class="p-animate grow-animate"> ФОП Журанський</p>
+            <p class="p-animate grow-animate"> Віктор Євгенович </p>
+        </div>
+        <div class="grid-item-home box-one">
+            <img class="backgroud-mixer" src="~/img/Vehicles/Mixer/Mixer.png" />
+        </div>
+        <div style="text-align: left; grid-column: 4/5; margin-top: 60px">
+            <p class="p-animate grow-animate" style="width: min-content"> м.Рівне, Недоступно</p>
+            <a class="p-animate grow-animate phone" style="width: min-content" href="tel:+Вставитиномер">Недоступно</a>
+        </div>
+        <div class="box-list-name box-two dropdown-home">
+            <button onclick="myFunction()" class="dropbutton">Доставка</button>
+            <div id="myDropdown" class="dropdown-content-home">
+                <form asp-controller="Home" asp-action="Index" method="post">
+                    <input asp-for=IdentifierType type="submit" value="ПрайсЛист" name="1" />
+                </form>
+            </div>
+        </div>
+        @{
+            @Html.Partial("HomeAllDeliveries")
+            ;
+        }
+        <div class="box-four" style="text-align:center; margin-top:60px;">
+            <a class="hover-underline-animation" style="text-decoration: none" asp-controller="Shopcart" asp-action="Order">Зробити замовлення</a>
+        </div>
+        <div class="grid-item box-four-1 contact-grid-1 grow-animate" id="ContactPanel">
+            <h4 class="text-style-contact" style="margin: 5px 5px 5px">Телефони</h4>
+            <div class="div-contact">
+                <a class="text-style-contact"> Питання з продажу:</a>
+                <input type="hidden" value="+Вставитиномер" id="phone1" />
+                <a class="text-style-contact hover-underline-animation phone" onclick="copy('phone1')" href="tel:+Вставитиномер">Недоступно</a>
+            </div>
+            <div class="div-contact">
+                <a class="text-style-contact"> Технічна підтримка:</a>
+                <input type="hidden" value="+Вставитиномер" id="phone2" />
+                <a class="text-style-contact hover-underline-animation phone" onclick="copy('phone2')" href="tel:+Вставитиномер">Недоступно</a>
+                @*<p class="text-style-contact a-contact" style="margin-bottom: 5px" href=”tel:+Вставитиномер”> Тимчасово недоступно</p>*@
+            </div>
+        </div>
+        <div class="grid-item box-four-2 contact-grid-2 grow-animate">
+            <h4 class="text-style-contact">Електронна пошта</h4>
+            <div class="div-contact">
+                <a class="text-style-contact"> Питання з продажу:</a>
+                <input type="hidden" value="zhuranskyifop@gmail.com" id="email1" />
+                <p class="text-style-contact hover-underline-animation" onclick="copy('email1')">zhuranskyifop@gmail.com</p>
+                @*<a class="text-style-contact a-contact">zhuranskyifop@gmail.com</a>*@
+            </div>
+            <div class="div-contact">
+                <a class="text-style-contact"> Технічна підтримка:</a>
+                <input type="hidden" value="zhuranskyidmytro@gmail.com" id="email2" />
+                <p class="text-style-contact hover-underline-animation phone" onclick="copy('email2')">zhuranskyidmytro@gmail.com</p>
+                @*<a class="text-style-contact a-contact">zhuranskyidmytro@gmail.com</a>*@
+            </div>
+        </div>
+        <div class="box-five" style="text-align:center; margin-top:20px;">
+            <a class="hover-underline-animation" style="text-decoration: none" asp-controller="Contact" asp-action="ContactUs">Зв'яжіться з нами</a>
+        </div>
+        <div id="map" class="grid-item-home box-six" style="height:400px;width:auto;margin-top:40px;margin-bottom:50px;margin-left:20px;margin-right:20px;">
+            <script type="text/javascript">
+                                    function initMap() {
+                    var center = { lat: 55.92965249, lng: 12.47840507 };
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 12,
+                        center: center
+                    });
+                }
+            </script>
+        </div>
+    </div>
+</body>
+</html>
+
